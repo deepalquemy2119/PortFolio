@@ -1,12 +1,39 @@
-body {
-  background: #090909;
+/* Botones */
+.btn {
+  text-decoration: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 4px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s, transform 0.3s;
 }
 
-.bg-black {
-  background: #000;
+.btn:hover {
+  transform: scale(1.05);
 }
 
-.card-project:hover {
-  border: 1px solid #eee;
-  cursor: pointer;
+.btn-secondary {
+  background-color: #007bff;
+  color: white;
+}
+
+.btn-primary {
+  background-color: #28a745;
+  color: white;
+}
+
+.btn-secondary:hover {
+  background-color: #0056b3; /* Fondo al hacer hover */
+}
+
+.btn-primary:hover {
+  background-color: #218838; /* Fondo al hacer hover */
+}
+
+/* Íconos de los botones */
+.btn span {
+  margin-right: 8px;
 }
